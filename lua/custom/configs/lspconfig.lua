@@ -8,7 +8,9 @@ local servers = {
   'ts_ls',
   'eslint',
   'gopls',
+  'jdtls',
 }
+
 
 for _, lsp in ipairs(servers) do
   lspconfig[lsp].setup {

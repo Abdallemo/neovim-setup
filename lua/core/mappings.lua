@@ -1,6 +1,7 @@
 -- n, v, i, t = mode names
 
 local M = {}
+local runner = require("custom.runner")
 
 M.general = {
   i = {
@@ -356,6 +357,7 @@ M.nvterm = {
       end,
       "New vertical term",
     },
+    ["<leader>rr"] = { runner.run, "Run current file (auto-detect language)" },
   },
 }
 

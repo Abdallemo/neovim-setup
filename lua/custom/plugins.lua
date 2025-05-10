@@ -31,8 +31,7 @@ local plugins = {
         'gofumpt',
         'goimports-reviser',
         'shfmt',
-
-
+        'jdtls',
       }
     }
   }
