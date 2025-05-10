@@ -8,9 +8,6 @@ local servers = {
   'ts_ls',
   'eslint',
   'gopls',
-  -- 'bashls',
-  --'dockerls',
-  -- ' docker-compose-language-service'
 }
 
 for _, lsp in ipairs(servers) do

@@ -30,9 +30,7 @@ local plugins = {
         'gopls',
         'gofumpt',
         'goimports-reviser',
-        -- 'dockerls',
-        --
-        -- 'bashls',
+        'shfmt',
 
 
       }
