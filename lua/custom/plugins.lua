@@ -32,6 +32,7 @@ local plugins = {
         'goimports-reviser',
         'shfmt',
         'jdtls',
+        'pyright',
       }
     }
   }

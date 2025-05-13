@@ -9,6 +9,7 @@ local servers = {
   'eslint',
   'gopls',
   'jdtls',
+  'pyright',
 }
 
 
