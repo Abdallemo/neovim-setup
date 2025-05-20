@@ -10,6 +10,7 @@ local servers = {
   'gopls',
   'jdtls',
   'pyright',
+  -- 'basedpyright',
 }
 
 

@@ -8,9 +8,12 @@ local opts = {
     null_ls.builtins.formatting.gofumpt,
     null_ls.builtins.formatting.shfmt,
     null_ls.builtins.formatting.black,
+    null_ls.builtins.formatting.isort,
   },
   on_attach = function(client, bufnr)
+    print("LSP attached: " .. client.name)
     if client.supports_method("textDocument/formatting") then
+      print(client.name .. " supports_formating")
       vim.api.nvim_clear_autocmds({
         group = augroup,
         buffer = bufnr,

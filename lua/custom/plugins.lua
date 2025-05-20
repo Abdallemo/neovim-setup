@@ -33,6 +33,8 @@ local plugins = {
         'shfmt',
         'jdtls',
         'pyright',
+        'black',
+        'isort',
       }
     }
   }
